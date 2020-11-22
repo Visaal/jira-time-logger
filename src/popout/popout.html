@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en" class="popup">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Jira Time Logger</title>
+    <meta name="description" content="Extension to help log time" />
+    <meta name="author" content="VisaalPatel" />
+
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body class="popup">
+    <div class="container">
+      <div class="header">
+        <span class="title">Time Logger</span>
+        <div class="search-container">
+          <input
+            type="text"
+            name="manual-issue-key"
+            id="manualIssue"
+            placeholder="Add Ticket Key"
+          />
+          <div class="add-icon">
+            <span id="addIcon">&#43;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content" id="content">
+        <div class="sliders" id="slidersContainer">
+          <h1 class="jira-header">Set Time To Log</h1>
+        </div>
+
+        <div class="dates">
+          <h1 class="jira-header">Select Dates</h1>
+          <div class="go-back" id="goBackward">&#8249;</div>
+          <div class="date-options-container">
+            <div class="date-options" id="dateOptions"></div>
+          </div>
+          <div class="go-forward" id="goForward">&#8250;</div>
+        </div>
+
+        <div class="bottom-tray">
+          <div class="button-container">
+            <button class="jira-button" id="logTime">Log Time</button>
+          </div>
+          <div id="messageContainer" class="message-container">
+            <span id="messageDisplay" class="message-display"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="popout.js"></script>
+  </body>
+</html>
