@@ -27,10 +27,13 @@ To load an unpacked extension:
 - Click the LOAD UNPACKED button and select the **src** folder in the extension directory.
 
 # Usage
+
 Click on the extension icon from your browser
 
 ![]([https://link](https://github.com/Visaal/jira-time-logger/blob/main/src%2Fpopout%2Fimages%2Fextension-icon-image.png))
 ![alt](src/popout/images/extension-icon-image.png)
+
+### Setting Options
 
 On your first visit you will be directed to the extension options page to set the configuration for the extension.
 
@@ -45,3 +48,29 @@ Click Save and your options will be stored.
 
 To get back to the options page simply right-click on the extension icon and select Options.
 
+
+### Logging Time
+
+Once your options are set clicking on the icon will open the extension popup.
+
+![](src/popout/images/app.png)
+![]([https://link](https://github.com/Visaal/jira-time-logger/blob/main/src%2Fpopout%2Fimages%2Fapp.png))
+
+
+![](src/popout/images/worklogs.png)
+![]([https://link](https://github.com/Visaal/jira-time-logger/blob/main/src%2Fpopout%2Fimages%2Fapp.png))
+
+
+#### Video:
+
+![](src/popout/images/jiraTimeLoggerVideo.gif)
+![]([https://link](https://github.com/Visaal/jira-time-logger/blob/main/src%2Fpopout%2Fimages%2FjiraTimeLoggerVideo.gif))
+
+
+# Roadmap
+- Validation on URL entered in Options page to ensure it is a valid Jira URL
+- Additional time units to log work (days, minutes)
+- Option to show weekends
+
+# License
+Usage is provided under the [MIT License](http://opensource.org/licenses/mit-license.php). See LICENSE for the full details.
