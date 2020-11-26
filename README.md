@@ -72,5 +72,10 @@ Once your options are set clicking on the icon will open the extension popup.
 - Additional time units to log work (days, minutes)
 - Option to show weekends
 
+# Credits
+Extension icon from [Remix Icon]([https://link](https://remixicon.com/))
+
+Inspiration from [Atlassian Design System](https://atlassian.design/)
+
 # License
 Usage is provided under the [MIT License](http://opensource.org/licenses/mit-license.php). See LICENSE for the full details.
