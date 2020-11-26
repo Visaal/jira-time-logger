@@ -73,7 +73,7 @@ Once your options are set clicking on the icon will open the extension popup.
 - Option to show weekends
 
 # Credits
-Extension icon from [Remix Icon]([https://link](https://remixicon.com/))
+Extension icon from [Remix Icon](https://remixicon.com/)
 
 Inspiration from [Atlassian Design System](https://atlassian.design/)
 
