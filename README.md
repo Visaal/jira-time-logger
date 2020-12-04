@@ -61,7 +61,7 @@ Once your options are set clicking on the icon will open the extension popup.
 ![]([https://link](https://github.com/Visaal/jira-time-logger/blob/main/src%2Fpopout%2Fimages%2Fapp.png))
 
 
-#### Video:
+### Video:
 
 ![](src/popout/images/jiraTimeLoggerVideo.gif)
 ![]([https://link](https://github.com/Visaal/jira-time-logger/blob/main/src%2Fpopout%2Fimages%2FjiraTimeLoggerVideo.gif))
